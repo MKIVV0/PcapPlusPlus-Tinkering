@@ -5,10 +5,11 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/PcapPlusPlus-22.05/Dist/header/**",
-                "/usr/include/**"
+                "/usr/include/**",
+                "/usr/local/include/**"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/clang",
+            "compilerPath": "/usr/bin/g++",
             "cStandard": "c17",
             "cppStandard": "c++23",
             "intelliSenseMode": "linux-clang-x64",
@@ -16,7 +17,8 @@
             "browse": {
                 "path": [
                     "/opt/PcapPlusPlus-22.05/Dist/header/**",
-                    "/usr/include/**"
+                    "/usr/include/**",
+                    "/usr/local/include/**"
                 ]
             }
         }
